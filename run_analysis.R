@@ -1,12 +1,12 @@
 
 ## Step0: Read all files ##
-filepath <- "F:\\Coursea\\03. Cleansing Data\\Course Project\\UCI HAR Dataset"
+filepath <- "C:\\Coursea\\03. Cleansing Data\\Course Project\\UCI HAR Dataset"
 
-## read features files ##
+## read training files ##
 datax_train <- read.table(file.path(filepath, "train", "X_train.txt"), head=FALSE)
 datax_test <- read.table(file.path(filepath, "test", "X_test.txt"), head=FALSE)
 
-## read activity files ##
+## read test files ##
 datay_train <- read.table(file.path(filepath, "train", "y_train.txt"), head=FALSE)
 datay_test <- read.table(file.path(filepath, "test", "y_test.txt"), head=FALSE)
 
